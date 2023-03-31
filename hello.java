@@ -7,10 +7,14 @@ class HelloWorld
     public static void main(String args[]) 
     { 
         lolipop();
-        System.out.println("Super codeuse"); 
+        System.out.println("Super codeuse");
+        million();
     } 
     
     public int lolipop(){
         System.out.println("Hello, World"); 
+    }
+    public String million(){
+        return "je veux mes million demain";
     }
 }
